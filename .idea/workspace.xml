@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a41a5df4-7b24-4248-9680-17183083311b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MokAndLog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/max/home/accu/GetLocationHomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/max/home/accu/GetWeather15DaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/max/home/accu/GetWeather5DaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/max/home/accu/GetWeatherTenDaysTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,6 +34,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2aox6kQjdGhmRqkp7wIdUheIk7K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +52,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/ProgrammingCodding/MockAndLog/MokAndLog",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -43,6 +65,96 @@
       <recent name="D:\ProgrammingCodding\MockAndLog\MokAndLog" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.GetLocationHomeTest.get_shouldReturnObjectWhichModified">
+    <configuration name="GetLocationHomeTest.get_shouldReturnObjectWhichModified" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MokAndLog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.home.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.home.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.home.accu.GetLocationHomeTest" />
+      <option name="METHOD_NAME" value="get_shouldReturnObjectWhichModified" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetLocationTest.getHeaderInResponseWithStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MokAndLog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.seminar.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.seminar.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.seminar.accu.GetLocationTest" />
+      <option name="METHOD_NAME" value="getHeaderInResponseWithStub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWeather15DaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MokAndLog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.home.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.home.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.home.accu.GetWeather15DaysTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWeather15DaysTest.get_should1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MokAndLog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.home.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.home.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.home.accu.GetWeather15DaysTest" />
+      <option name="METHOD_NAME" value="get_should1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetWeather5DaysTest.get_DifferentChecks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MokAndLog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.max.home.accu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.max.home.accu" />
+      <option name="MAIN_CLASS_NAME" value="org.max.home.accu.GetWeather5DaysTest" />
+      <option name="METHOD_NAME" value="get_DifferentChecks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetLocationHomeTest.get_shouldReturnObjectWhichModified" />
+        <item itemvalue="JUnit.GetLocationTest.getHeaderInResponseWithStub" />
+        <item itemvalue="JUnit.GetWeather15DaysTest" />
+        <item itemvalue="JUnit.GetWeather5DaysTest.get_DifferentChecks" />
+        <item itemvalue="JUnit.GetWeather15DaysTest.get_should1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,5 +165,16 @@
       <updated>1704998560528</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

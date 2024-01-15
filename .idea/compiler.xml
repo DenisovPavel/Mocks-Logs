@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MokAndLog" />
         <module name="auto" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auto" target="17" />
+      <module name="MokAndLog" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
