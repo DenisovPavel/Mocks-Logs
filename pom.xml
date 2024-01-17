@@ -19,6 +19,7 @@
         <wiremock.version>1.58</wiremock.version>
         <surefire.version>2.22.2</surefire.version>
         <jackson.version>2.15.0</jackson.version>
+        <allure.junit.version>2.22.1</allure.junit.version>
     </properties>
 
     <!-- Архивирование -->
@@ -30,7 +31,7 @@
 
     <!-- Зависимости -->
     <dependencies>
-        <!-- Лекция 1.Зависимости junit -->
+        <!-- Зависимости junit -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
@@ -44,14 +45,14 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Лекция 3. Jackson -->
+        <!--  Jackson -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
 
-        <!-- Лекция 5. Логирование -->
+        <!--  Логирование -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
@@ -85,14 +86,19 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Лекция 5. WireMock -->
+        <!--  WireMock -->
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
             <artifactId>wiremock</artifactId>
             <version>${wiremock.version}</version>
             <!--          <scope>test</scope>-->
         </dependency>
-
+        <!-- Allure -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit5</artifactId>
+            <version>${allure.junit.version}</version>
+        </dependency>
     </dependencies>
 
     <!-- Сборка -->
@@ -110,6 +116,18 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefire.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.12.0</version>
+                <configuration>
+                    <!-- На момент написания лекции соответствующий архив не доступен,
+                    закомментируйте строку-->
+                    <!--<reportVersion>2.4.1</reportVersion>-->
+                    <!-- Добавим адрес директории для генератора отчета -->
+                    <buildDirectory>D:\ProgrammingCodding\MockAndLog\MokAndLog</buildDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>
